@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hello"
+name = "learning-django-docker"
 version = "0.1.0"
 description = ""
 authors = ["Rasul Kireev <me@rasulkireev.com>"]
@@ -7,6 +7,7 @@ authors = ["Rasul Kireev <me@rasulkireev.com>"]
 [tool.poetry.dependencies]
 python = "^3.7"
 django = "^3.0.8"
+psycopg2-binary = "^2.8.5"
 
 [tool.poetry.dev-dependencies]
 
